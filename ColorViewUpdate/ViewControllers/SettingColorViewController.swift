@@ -82,8 +82,6 @@ class SettingColorViewController: UIViewController {
         super.touchesBegan(touches, with: event)
         view.endEditing(true)
     }
-    
-    
 }
 
 extension SettingColorViewController: UITextFieldDelegate {
@@ -106,9 +104,6 @@ extension SettingColorViewController: UITextFieldDelegate {
         backgraundColor()
     }
 }
-
-
-
 
 
 extension SettingColorViewController {
